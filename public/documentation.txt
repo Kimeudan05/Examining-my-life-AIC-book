@@ -1,0 +1,189 @@
+### **Documentation for the Study Book Application**
+
+This documentation provides a comprehensive guide to navigating and using the **Study Book Application**. The app is designed to help users explore weekly and daily study content, answer questions, and view Bible verses dynamically.
+
+---
+
+## **Table of Contents**
+1. **Application Overview**
+2. **Navigation**
+   - Home Page
+   - Weeks and Days
+   - Sidebar
+   - Navbar
+   - Footer
+3. **Features**
+   - Viewing Questions and Answers
+   - Fetching and Displaying Bible Verses
+   - Saving and Editing Answers
+4. **Technical Details**
+   - Data Structure
+   - API Integration
+   - Local Storage
+5. **Troubleshooting**
+6. **Future Enhancements**
+
+---
+
+## **1. Application Overview**
+The Study Book Application is a React-based web app that allows users to:
+- Navigate through **weeks** and **days** of study content.
+- View **questions** and **Bible references** for each day.
+- Fetch and display **Bible verses** dynamically using the `bible-api.com` API.
+- Save, edit, and delete answers to questions using **local storage**.
+
+---
+
+## **2. Navigation**
+
+### **Home Page**
+- **Purpose**: The landing page of the application.
+- **Features**:
+  - A form to enter user details (name, church, region, area).
+  - After submission, a welcome message is displayed with an introduction to the book.
+- **How to Navigate**:
+  - Open the app, and you’ll land on the Home page.
+  - Fill out the form and click **Submit** to proceed.
+
+### **Weeks and Days**
+- **Purpose**: Organize study content into weeks and days.
+- **Features**:
+  - Each week contains 6 days of study material.
+  - Each day has a title, content, and a list of questions.
+- **How to Navigate**:
+  - Use the **Sidebar** to select a week.
+  - Click on a day to view its content and questions.
+
+### **Sidebar**
+- **Purpose**: Navigate between weeks and days.
+- **Features**:
+  - Displays a list of weeks.
+  - Expands to show days when a week is clicked.
+  - On smaller screens, the sidebar is hidden by default and can be toggled using a **hamburger menu**.
+- **How to Navigate**:
+  - On larger screens, the sidebar is always visible.
+  - On smaller screens, click the **hamburger menu** (bar icon) to open the sidebar.
+
+### **Navbar**
+- **Purpose**: Provides quick access to the Home page and Weeks.
+- **Features**:
+  - Contains links to **Home** and **Weeks**.
+  - Fixed at the top of the screen.
+- **How to Navigate**:
+  - Click **Home** to return to the landing page.
+  - Click **Weeks** to navigate to the list of weeks.
+
+### **Footer**
+- **Purpose**: Displays additional information.
+- **Features**:
+  - Contains a copyright notice.
+  - Fixed at the bottom of the screen.
+- **How to Navigate**:
+  - The footer is always visible and does not require interaction.
+
+---
+
+## **3. Features**
+
+### **Viewing Questions and Answers**
+- **Purpose**: Engage with study questions and save answers.
+- **Features**:
+  - Each question has a textbox for typing answers.
+  - Answers can be saved, edited, or deleted.
+  - Saved answers persist across page reloads using **local storage**.
+- **How to Use**:
+  - Type your answer in the textbox.
+  - Click **Save** to save the answer.
+  - Click **Edit** to modify the answer.
+  - Click **Delete** to remove the answer.
+
+### **Fetching and Displaying Bible Verses**
+- **Purpose**: View Bible verses referenced in the questions.
+- **Features**:
+  - Clickable references fetch and display verses dynamically.
+  - Verses are displayed inline below the reference.
+  - Supports multiple references for a single question.
+- **How to Use**:
+  - Click on a Bible reference (e.g., `Genesis 39:19-20`).
+  - The verse will be fetched and displayed below the reference.
+
+### **Saving and Editing Answers**
+- **Purpose**: Save and manage answers to questions.
+- **Features**:
+  - Answers are saved in **local storage**.
+  - Each question has an independent textbox.
+  - Answers can be edited or deleted.
+- **How to Use**:
+  - Type your answer in the textbox and click **Save**.
+  - To edit, click **Edit**, modify the answer, and click **Save**.
+  - To delete, click **Delete**.
+
+---
+
+## **4. Technical Details**
+
+### **Data Structure**
+- The app uses a `data.json` file to store study content.
+- Example structure:
+  ```json
+  {
+    "weeks": [
+      {
+        "week": 1,
+        "title": "Resisting Temptation",
+        "days": [
+          {
+            "day": 1,
+            "title": "Stewardship of Beauty",
+            "content": "Beauty is a gift from God...",
+            "questions": [
+              {
+                "question": "What does this verse say about Joseph’s special physical appearance?",
+                "reference": "Genesis 39:6"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  ```
+
+### **API Integration**
+- The app uses the `bible-api.com` API to fetch Bible verses.
+- Example API call:
+  ```javascript
+  axios.get(`https://bible-api.com/${reference}`);
+  ```
+
+### **Local Storage**
+- Answers are saved in the browser’s local storage.
+- Each question has a unique key:
+  ```javascript
+  const storageKey = `week-${weekId}-day-${dayId}-question-${questionId}`;
+  ```
+
+---
+
+## **5. Troubleshooting**
+- **Issue**: Verses not loading.
+  - **Solution**: Check your internet connection and ensure the API is accessible.
+- **Issue**: Answers not saving.
+  - **Solution**: Ensure local storage is enabled in your browser.
+- **Issue**: Sidebar not visible on smaller screens.
+  - **Solution**: Click the **hamburger menu** (bar icon) to toggle the sidebar.
+
+---
+
+## **6. Future Enhancements**
+- **User Authentication**: Add login functionality to save answers to a database.
+- **Progress Tracking**: Track completed days and weeks.
+- **Customizable Themes**: Allow users to choose light/dark themes.
+- **Offline Support**: Cache verses and answers for offline use.
+
+---
+
+## **Conclusion**
+The Study Book Application is a user-friendly tool for exploring study content, answering questions, and viewing Bible verses. With its intuitive navigation and dynamic features, it provides a seamless experience for users. If you have any questions or feedback, feel free to reach out!
+
+Happy studying! 😊📖
