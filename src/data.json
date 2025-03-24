@@ -40,7 +40,7 @@
             },
             {
               "question": "C. In what ways was her lust similar to that of Ammon?",
-              "reference": "1 Samuel 13:12-14"
+              "reference": "2 Samuel 13:12-14"
             },
             {
               "question": "D. In what ways do you feel tempted the most? (Honest answers are good for your spiritual growth.)"
@@ -131,10 +131,10 @@
         {
           "day": 1,
           "title": "TO ERR IS HUMAN",
-          "content": "Read Genesis 37:1-11 carefully.",
           "questions": [
             {
-              "question": "Why was Joseph mistreated by his brothers?"
+              "question": "Read Genesis 37:1-11 carefully. Why was Joseph mistreated by his brothers?",
+              "reference":"Genesis 37:1-11"
             }
           ]
         },
@@ -143,12 +143,17 @@
           "title": "SIN MULTIPLIES (reproduces sin)",
           "questions": [
             {
-              "question": "What do these verses reveal concerning the attitude of Joseph’s brothers towards him?",
+              "question": "A. What do these verses reveal concerning the attitude of Joseph’s brothers towards him?",
               "reference": "Genesis 37:18-22"
             },
             {
-              "question": "What secret intentions do you have for your enemies?"
+              "question": "B. What secret intentions do you have for your enemies?"
+            },
+            {
+              "question":"C. Of whom were you jealous? : Why?"
             }
+          
+            
           ]
         },
         {
@@ -156,29 +161,30 @@
           "title": "HATRED IS MURDER",
           "questions": [
             {
-              "question": "Trace the plan of Joseph’s brothers as found in Genesis 37:",
+              "question": "A. Trace the plan of Joseph’s brothers as found in Genesis 37:",
+              "reference":"Genesis 37:23-24",
               "subQuestions": [
                 "v. 23 They ______________",
                 "v. 24 They ______________"
               ]
             },
             {
-              "question": "What did Joseph’s brothers intend to do to Joseph?",
+              "question": "B. What did Joseph’s brothers intend to do to Joseph?",
               "reference": "Genesis 37:26-27"
             },
             {
-              "question": "How did God rescue him?",
+              "question": "I. How did God rescue him?",
               "reference": "Genesis 37:25, 28b"
             },
             {
-              "question": "For what price was he sold?"
+              "question": "II. For what price was he sold?"
             },
             {
-              "question": "What other plan did Joseph’s brothers have?",
+              "question": "C. Read vs 29, 36 carefully, What other plan did Joseph’s brothers have?",
               "reference": "Genesis 37:29, 36"
             },
             {
-              "question": "If you hate another person, what does it mean?",
+              "question": "D. If you hate another person, what does it mean?",
               "reference": "1 John 3:15"
             }
           ]
@@ -188,10 +194,10 @@
           "title": "JOSEPH'S BROTHERS ADMIT THEIR GUILT",
           "questions": [
             {
-              "question": "What confession would you make when you wrong someone? Write the confession in first person in Genesis 42:21, beginning with 'Truly…' Use 'I' instead of 'We'."
+              "question": "A. What confession would you make when you wrong someone? Write the confession in first person in Genesis 42:21, beginning with 'Truly…' Use 'I' instead of 'We'."
             },
             {
-              "question": "Two other instances show that the guilt in Joseph’s brothers troubled them. Describe their request to Joseph.",
+              "question": "A. Two other instances show that the guilt in Joseph’s brothers troubled them. Describe their request to Joseph.",
               "references": ["Genesis 45:3", "Genesis 50:15-21"]
             },
             {
@@ -205,18 +211,20 @@
           "content": "Humanly speaking, it is impossible to forgive our enemies without retaliating or holding grudges against them. A God-fearing man holds no grudges. He forgets entirely the wrong done to him by another person.",
           "questions": [
             {
-              "question": "Why would Joseph not harm his brothers?",
+              "question": "A. Why would Joseph not harm his brothers?",
               "reference": "Genesis 42:18"
             },
             {
-              "question": "Think of several characteristics of love that Joseph had in order to forgive his brothers. Now study what the New Testament teaches concerning love: 1 Corinthians 13:1-8.",
+              "question": "B.Read Genesis 45:4-8,24; 50:15-21 Think of several characteristics of love that Joseph had in order to forgive his brothers. Now study what the New Testament teaches concerning love: 1 Corinthians 13:1-8.",
               "subQuestions": [
                 "What love is (verses 4-7):",
                 "What love is not (verse 8):"
-              ]
+                
+              ],
+              "references":["Genesis 45:4-8,24","Genesis 50:15-21","1 Corinthians 13:1-8"]
             },
             {
-              "question": "What does Jesus Christ teach you to do concerning forgiving others?",
+              "question": "C. What does Jesus Christ teach you to do concerning forgiving others?",
               "reference": "Matthew 6:12"
             }
           ]
@@ -247,62 +255,65 @@
           "title": "GOD AND OUR DAILY CIRCUMSTANCES",
           "questions": [
             {
-              "question": "What did Joseph’s brothers plan to do with Joseph?",
+              "question":"Study carefully Gen. 37:20-36.God alters the plans of evil men to suit God's plams for us. What did Joseph’s brothers plan to do with Joseph?",
               "reference": "Genesis 37:20-36"
             },
             {
-              "question": "Did the idea of selling Joseph make his brothers less responsible for their evil action? Why?"
+              "question": "B. Did the idea of selling Joseph make his brothers less responsible for their evil action? Why?"
             },
             {
-              "question": "How did one sin lead to another?",
+              "question": "C. How did one sin lead to another?",
               "reference": "Genesis 37:31-36"
             },
             {
-              "question": "What evil intentions do you have against others?"
+              "question": "D. What evil intentions do you have against others?"
             }
           ]
         },
         {
           "day": 2,
           "title": "TEMPTATION AND GROWTH",
+          "content":"God allows satan to tempt us inorder that God might perfect His character in us. Do you sometimes wonder why hardships come your way when God is the God of Love? God allows us to suffer hardships because he loves us. Hardships produces charcter in us.",
           "questions": [
             {
-              "question": "Why did Joseph enter Mr. Potiphar’s house?",
+              "question": "A. Why did Joseph enter Mr. Potiphar’s house?",
               "reference": "Genesis 39:1"
             },
             {
-              "question": "What happened?",
+              "question": "I. What happened?",
               "reference": "Genesis 39:12-13"
             },
             {
-              "question": "What shows that Joseph could have yielded to sin if he had wanted to?",
+              "question": "B. What shows that Joseph could have yielded to sin if he had wanted to?",
               "reference": "Genesis 39:9-11"
             },
             {
-              "question": "What helped Joseph gain victory over the temptation?"
+              "question": "C. What helped Joseph gain victory over the temptation?"
             }
           ]
         },
         {
           "day": 3,
           "title": "SUFFERING",
+          "content":"God can use suffering  to bring us to a place of honor, even though we dont understand the reason for our suffering.",
           "questions": [
             {
-              "question": "What happened to Joseph as a result of Mrs. Potiphar’s false accusation?",
+              "question": "A. What happened to Joseph as a result of Mrs. Potiphar’s false accusation?",
               "reference": "Genesis 39:19-20"
             },
             {
-              "question": "How did God show His mercies to Joseph?",
+              "question": "I.How did God show His mercies to Joseph?",
               "reference": "Genesis 39:21-23"
             },
             {
-              "question": "Suffering unjustly brings blessings to a godly man. How does this apply to your life situation now?"
+              "question": "B. Suffering unjustly brings blessings to a godly man. How does this apply to your life situation now?"
             }
           ]
         },
         {
           "day": 4,
           "title": "PREPARATION FOR THE FUTURE",
+          "content":"God was preparing Joseph for a future task of leadership. God may use people to revel His will to us.",
           "questions": [
             {
               "question": "How did God use the chief butler to make known God’s will for Joseph?",
@@ -329,19 +340,27 @@
         },
         {
           "day": 5,
-          "title": "GOD'S PURPOSE",
+          "title": "GOD'S PURPOSE", 
+          "content":"Joseph was send to egypt for a purpose. God was using him to preserve the lives of Jacob's family. Very often God alows certain things take place in our lives to perfect a plan of God.",
           "questions": [
             {
-              "question": "Who did Joseph say sent him into Egypt?",
+              "question": "A. Who did Joseph say sent him into Egypt?",
               "reference": "Genesis 45:5-7"
             },
             {
-              "question": "Why was Joseph sent into Egypt?",
+              "question": "B. Why was Joseph sent into Egypt?",
               "reference": "Genesis 45:5-7"
             },
             {
-              "question": "Joseph comforted his brothers after revealing himself to them. What did he ask his brothers not to do?",
+              "question": "C. Joseph comforted his brothers after revealing himself to them. What did he ask his brothers not to do?",
               "reference": "Genesis 45:5"
+            },
+            {
+              "question":"D. What does Paul say your attitude should be in all circumstances that come your way?",
+              "reference":"Romans 8:28"
+            },
+            {
+              "question":"E. What difficulties are you facing now? Write them here."
             }
           ]
         },
@@ -369,23 +388,23 @@
           "title": "JOSEPH’S STEWARDSHIP OF THE BODY",
           "questions": [
             {
-              "question": "What quality of beauty did Joseph possess?",
+              "question": "A. What quality of beauty did Joseph possess?",
               "reference": "Genesis 39:6"
             },
             {
-              "question": "What sin was Joseph tempted to commit?",
+              "question": "B. What sin was Joseph tempted to commit?",
               "reference": "Genesis 39:7"
             },
             {
-              "question": "Why would he not yield to temptation?",
+              "question": "C. Why would he not yield to temptation?",
               "reference": "Genesis 39:8-9"
             },
             {
-              "question": "A Christian is no longer his own. He belongs to Jesus Christ, his redeemer. Read Gal. 2:20. List three things you as a Christian should not love",
+              "question": "D. A Christian is no longer his own. He belongs to Jesus Christ, his redeemer. Read Gal. 2:20. I. List three things you as a Christian should not love",
               "reference": "1 John 2:16"
             },
             {
-              "question": "What should you do with your body?",
+              "question": "II. What should you do with your body?",
               "reference": "1 Corinthians 6:19-20"
             }
           ]
@@ -393,21 +412,21 @@
         {
           "day": 2,
           "title": "JOSEPH’S STEWARDSHIP OF TIME",
-          "intro": "Time well spent on earth will be rewarded with joy in Heaven.",
+          "content": "Time well spent on earth will be rewarded with joy in Heaven.",
           "questions": [
             {
-              "question": "Read Psalm 90:10,12. What do these verses teach you concerning the importance of time?"
+              "question": "A. Read Psalm 90:10,12. What do these verses teach you concerning the importance of time?"
             },
             {
-              "question": "What shows in these verses that Joseph wasted no time at all?",
+              "question": "B. What shows in these verses that Joseph wasted no time at all?",
               "reference": "Genesis 39:10-11"
             },
             {
-              "question": "Time is money. Time wasted will never be recovered. What commands does God give concerning daily use of time?",
+              "question": "C. Time is money. Time wasted will never be recovered. What commands does God give concerning daily use of time?",
               "reference": "Ephesians 5:15-16"
             },
             {
-              "question": "Sometimes you spend most of your free time on unprofitable activities. List some activities you spend most of your time on. Why?"
+              "question": "D. Sometimes you spend most of your free time on unprofitable activities. List some activities you spend most of your time on. II. Why?"
             }
           ]
         },
@@ -416,15 +435,15 @@
           "title": "JOSEPH’S STEWARDSHIP OF TALENTS OR ABILITIES",
           "questions": [
             {
-              "question": "What special abilities did Joseph have?",
+              "question": "A. What special abilities did Joseph have?",
               "reference": "Genesis 41:39"
             },
             {
-              "question": "God has given you a gift; you need to discover it. What gifts has God given to His children?",
+              "question": "B. God has given you a gift; you need to discover it. What gifts has God given to His children?",
               "reference": "Romans 12:6,8"
             },
             {
-              "question": "How should you use your gifts?",
+              "question": "C. How should you use your gifts?",
               "reference": "1 Peter 4:10"
             }
           ]
@@ -434,14 +453,15 @@
           "title": "JOSEPH’S STEWARDSHIP OF POSITION",
           "questions": [
             {
-              "question": "Study Gen. 45:5-9 carefully. What does Joseph say about his position?"
+              "question": "A. Study Gen. 45:5-9 carefully. What does Joseph say about his position?",
+              "reference":"Genesis 45:5-9"
             },
             {
-              "question": "What responsibilities did Joseph have?",
+              "question": "B. What responsibilities did Joseph have?",
               "reference": "Genesis 45:5-9"
             },
             {
-              "question": "Very often people in high positions use the opportunity to take revenge against their enemies, acquire wealth, and boost their pride. How did Joseph use his position?",
+              "question": "C. Very often people in high positions use the opportunity to take revenge against their enemies, acquire wealth, and boost their pride. How did Joseph use his position?",
               "reference": "Genesis 45:9-15"
             }
           ]
@@ -449,19 +469,20 @@
         {
           "day": 5,
           "title": "JOSEPH’S STEWARDSHIP OF MATERIAL POSSESSIONS",
-          "intro": "Though little is mentioned about Joseph’s possessions in Egypt, Joseph was a good steward of his possessions. All the material wealth in Egypt was at his disposal. He acknowledged God in many things.",
+          "content": "Though little is mentioned about Joseph’s possessions in Egypt, Joseph was a good steward of his possessions. All the material wealth in Egypt was at his disposal. He acknowledged God in many things.",
           "questions": [
             {
-              "question": "Study Gen. 42:25; 45:7, 10-11; 49:24. Which of the following words and phrases describe best Joseph’s stewardship of material wealth? Tick the correct ones."
+              "question": "A. Study Gen. 42:25; 45:7, 10-11; 49:24. Which of the following words and phrases describe best Joseph’s stewardship of material wealth? Tick the correct ones.",
+              "reference":"Genesis. 42:25; 45:7, 10-11; 49:24"
             },
             {
-              "question": "What do these verses teach concerning stewardship of the world’s wealth?",
+              "question": "B. What do these verses teach concerning stewardship of the world’s wealth?",
               "references": ["Psalm 50:10, 12b", "Psalm 89:11", "Haggai 2:8"]
             },
             {
-              "question": "What attitude should you have concerning daily matters?",
+              "question": "C. What attitude should you have concerning daily matters?",
               "references": [
-                "Proverbs 30:8b",
+                "Proverbs 30:8",
                 "1 Timothy 6:8",
                 "Colossians 3:10-31"
               ]
@@ -486,103 +507,103 @@
           "title": "God Promises to Meet Your Needs",
           "questions": [
             {
-              "question": "Why was Joseph prosperous?",
+              "question": "A. Why was Joseph prosperous?",
               "reference": "Genesis 39:3, 23"
             },
             {
-              "question": "\"The reward for __________ and __________ of the Lord is __________ and __________.\"",
+              "question": "\"B. The reward for __________ and __________ of the Lord is __________ and __________.\"",
               "reference": "Proverbs 22:4"
             },
             {
-              "question": "What did Paul say God would do for the Philippians because they had sacrificed to support him?",
+              "question": "C. What did Paul say God would do for the Philippians because they had sacrificed to support him?",
               "reference": "Philippians 4:19"
             },
             {
-              "question": "What three things must you do when in need of anything from God?",
+              "question": "D.What three things must you do when in need of anything from God?",
               "reference": "Matthew 7:8"
             }
           ]
         },
         {
           "day": 2,
-          "title": "Faithfulness",
-          "intro": "God honors those who are faithful and trustworthy in little things.",
+          "title": "FAITHFULNESS",
+          "content": "God honors those who are faithful and trustworthy in little things.",
           "questions": [
             {
-              "question": "What key responsibilities did Joseph hold in Potiphar’s house?",
+              "question": "A. What key responsibilities did Joseph hold in Potiphar’s house?",
               "reference": "Genesis 39:2-6"
             },
             {
-              "question": "What will you receive that Joseph received if you remain trustworthy in your work?",
+              "question": "B. What will you receive that Joseph received if you remain trustworthy in your work?",
               "reference": "Genesis 39:5"
             },
             {
-              "question": "What two things unfold all the blessings God wants you to have?",
+              "question": "C. What two things unfold all the blessings God wants you to have?",
               "reference": "Matthew 6:33"
             }
           ]
         },
         {
           "day": 3,
-          "title": "Integrity",
-          "intro": "Joseph could not use his success for sinful ends.",
+          "title": "INTEGRITY",
+          "content": "Joseph could not use his success for sinful ends.",
           "questions": [
             {
-              "question": "What temptation did Joseph face in Potiphar’s house?",
+              "question": "A. What temptation did Joseph face in Potiphar’s house?",
               "reference": "Genesis 39:7-8"
             },
             {
-              "question": "What advantages did Joseph have that could have led him to sin?",
+              "question": "B. What advantages did Joseph have that could have led him to sin?",
               "reference": "Genesis 39:7-11"
             },
             {
-              "question": "Why would he not yield to temptation?",
+              "question": "C. Why would he not yield to temptation?",
               "reference": "Genesis 39:9"
             },
             {
-              "question": "What three ways did Joseph use to resist Satan’s attack?",
+              "question": "D. What three ways did Joseph use to resist Satan’s attack?",
               "reference": "Genesis 39:10"
             },
             {
-              "question": "What must you do to avoid using your position for sinful intentions?"
+              "question": "E. What must you do to avoid using your position for sinful intentions?"
             }
           ]
         },
         {
           "day": 4,
           "title": "Favour with God",
-          "intro": "Joseph was faithful in a small position. Though suffering was involved, God was preparing him for a greater position.",
+          "content": "Joseph was faithful in a small position. Though suffering was involved, God was preparing him for a greater position. As a result of Joseph's failthfulness in small things, he found favor in God's eyes.",
           "questions": [
             {
-              "question": "What two things happened to Joseph when he refused to listen to Satan’s voice?",
+              "question": "A. What two things happened to Joseph when he refused to listen to Satan’s voice?",
               "reference": "Genesis 39:13-20"
             },
             {
-              "question": "How did God show Joseph His kindness and love? In prison (Genesis 39:21-23) and out of prison (Genesis 41:39-41)"
+              "question": "B. How did God show Joseph His kindness and love? In prison (Genesis 39:21-23) and out of prison (Genesis 41:39-41)"
             },
             {
-              "question": "What attitude must you have when you suffer unjustly?",
+              "question": "C. What attitude must you have when you suffer unjustly?",
               "reference": "1 Peter 4:15-16"
             },
             {
-              "question": "From what are you suffering unjustly now?"
+              "question": "D. From what are you suffering unjustly now?"
             }
           ]
         },
         {
           "day": 5,
           "title": "God Gives Success",
-          "intro": "Success in life comes from God. Joseph attributed his success to God.",
+          "content": "Success in life comes from God. Joseph attributed his success to God. Whatever achievement he made in life, he acknowledged it to have come from above. As a man or woman of God, you and I are called to give the hor that belongs to Him.",
           "questions": [
             {
-              "question": "What does Joseph say was responsible for his prosperity in Egypt?",
+              "question": "A. What does Joseph say was responsible for his prosperity in Egypt?",
               "reference": "Genesis 45:4-8"
             },
             {
-              "question": "Why was he sent into Egypt?"
+              "question": "B. Why was he sent into Egypt?"
             },
             {
-              "question": "God may not give you everything you want, even though you may think it is good. He only gives what He knows is best for you. To what kind of people does God give every good thing?",
+              "question": "C. God may not give you everything you want, even though you may think it is good. He only gives what He knows is best for you. To what kind of people does God give every good thing?",
               "reference": "Psalm 84:11"
             }
           ]
@@ -590,14 +611,17 @@
         {
           "day": 6,
           "title": "Bible Passage",
-          "content": "Philippians 4:8-13"
+          "content": "Philippians 4:8-13",
+          "questions":[
+            {"reference":"Philippians 4:8-13"}
+          ]
         }
       ]
     },
     {
       "week": 6,
       "title": "Spiritual Breathing",
-      "introduction": "Prayer is the Christian’s vital breath. It is an attitude of life, a constant fellowship with the Lord and Savior Jesus Christ. Just as breathing is essential to physical life, so prayer is essential to spiritual life.",
+      "introduction": "Prayer is the Christian’s vital breath. It is an attitude of life, a constant fellowship with the Lord and Savior Jesus Christ. Just as breathing is essential to physical life, so prayer is essential to spiritual life.Have you prayed yet today? Many of us would be ashamed to answer this question. Yet prayer is vital  for becoming a godly person.",
       "memoryVerse": "Jeremiah 33:2-3: \"Thus says the Lord who made the earth, the Lord who formed it to establish it—the Lord is his name: Call to me and I will answer you, and will tell…\"",
       "days": [
         {
@@ -606,7 +630,7 @@
           "content": "Prayer is not just asking God for things. It is talking to Him just as a son talks to his father.",
           "questions": [
             {
-              "question": "What is prayer according to these verses?",
+              "question": "A. What is prayer according to these verses?",
               "references": [
                 "Psalm 34:1",
                 "1 John 1:9",
@@ -618,7 +642,7 @@
               ]
             },
             {
-              "question": "Which one(s) is (are) lacking in your life?"
+              "question": "B. Which one(s) is (are) lacking in your life?"
             }
           ]
         },
@@ -628,33 +652,33 @@
           "content": "Daniel’s habit of prayer is a great example of regular, consistent communication with God.",
           "questions": [
             {
-              "question": "Describe Daniel’s habit of prayer.",
+              "question": "A .Describe Daniel’s habit of prayer.",
               "reference": "Dan. 6:10-11"
             },
             {
-              "question": "What hinders you from having regular prayer?"
+              "question": "B. What hinders you from having regular prayer?"
             },
             {
-              "question": "What are you going to do to solve this problem?"
+              "question": "C. What are you going to do to solve this problem?"
             }
           ]
         },
         {
           "day": 3,
           "title": "Praying for Others",
-          "content": "Christians are commanded to pray for others. Prayer is unselfish.",
+          "content": "Christians are commanded to pray for others. Prayer is unselfish. Praying for each other is a true manifestation of oneness in spirit and in faith. Prayer may also mean pleading on behalf of our enemies or others we wish to see God change.\n James was sitting in preps. His senior teacher in high school was ill. 'Lord, grant your healing to Mwalimu Justus , james pleaded silently with God.'",
           "questions": [
             {
-              "question": "Do you pray for others?"
+              "question": "1. Do you pray for others?"
             },
             {
-              "question": "How often?"
+              "question": "2. How often?"
             },
             {
-              "question": "If not, why?"
+              "question": "3. If not, why?"
             },
             {
-              "question": "In these verses you find things Daniel may have included in his prayer list. What are they?",
+              "question": "4. In these verses you find things Daniel may have included in his prayer list. What are they?",
               "reference": "1 Tim. 2:1-3"
             }
           ]
@@ -662,36 +686,37 @@
         {
           "day": 4,
           "title": "Thanking God Always",
-          "content": "A godly person is always thankful to God. He recounts the many blessings God has poured on him.",
+          "content": "Have you ever stopped to think why many people are unthankful for he benefits God gives to them? S a child f God, you should acknowledge God's love and kindness in every detail of your daily life. A godly person is always thankful to God. He recounts the many blessings God has poured on him. His heart is full of tremendous praise and joy.",
           "questions": [
             {
-              "question": "What must a godly person do when God answers prayer?",
-              "reference": "Dan. 2:23a"
+              "question": "A. What must a godly person do when God answers prayer?",
+              "reference": "Daniel 2:23"
             },
             {
-              "question": "For what did Daniel praise and thank God?",
-              "reference": "Dan. 2:23"
+              "question": "B. For what did Daniel praise and thank God?",
+              "reference": "Daniel 2:23"
             },
             {
-              "question": "What kind of people could not understand God’s secret?",
-              "reference": "Dan. 2:27"
+              "question": "C. What kind of people could not understand God’s secret?",
+              "reference": "Daniel 2:27"
             },
             {
-              "question": "Read Daniel 2:28-30. What shows that Daniel did not interpret the king’s dream by his own understanding?"
+              "question": "D. Read Daniel 2:28-30. What shows that Daniel did not interpret the king’s dream by his own understanding?",
+              "reference":"Daniel 2:28-30"
             }
           ]
         },
         {
           "day": 5,
           "title": "Praying for Change",
-          "content": "All things are possible with God. The prayer of a righteous man has great power in its effects. (James 5:16)",
+          "content": "All things are possible with God our father. Through prayer, the fountain of blessings of God is opened. 'The prayer of a righteous man has great power in its effects.' (James 5:16)",
           "questions": [
             {
-              "question": "Why was Daniel thrown into the lions’ den?",
-              "reference": "Dan. 6:7-8,12"
+              "question": "A. Why was Daniel thrown into the lions’ den?",
+              "reference": "Daniel 6:7-8,12"
             },
             {
-              "question": "Read Daniel 6:14-38. How did prayer affect the course of events in the following verses?",
+              "question": "B. Read Daniel 6:14-38. How did prayer affect the course of events in the following verses?",
               "subquestions": [
                 {
                   "question": "King’s",
@@ -712,10 +737,10 @@
               ]
             },
             {
-              "question": "What major hardships are you experiencing today?"
+              "question": "C. What major hardships are you experiencing today?"
             },
             {
-              "question": "What will you ask God to do about your hardships? Perhaps He wants to change your attitudes rather than your situation."
+              "question": "II. What will you ask God to do about your hardships? Perhaps He wants to change your attitudes rather than your situation."
             }
           ]
         },

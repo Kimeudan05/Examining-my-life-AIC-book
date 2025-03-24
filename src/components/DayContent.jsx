@@ -49,7 +49,16 @@ const DayContent = () => {
 
   return (
     <div className="p-6 bg-gray-50 min-h-screen">
-      <h2 className="text-2xl font-bold mb-4 text-gray-800">Day {day.day}: {day.title}</h2>
+      {/* Display Week Introduction Before the First Day */}
+      {day.day === 1 && (
+        <div className="mb-6">
+          <h1 className="text-2xl font-bold mb-4 text-gray-800 uppercase">Week {week.week}: {week.title}</h1>
+          <p className="mb-4 text-gray-600">{week.introduction}</p>
+          <p className="italic text-gray-600">{week.memoryVerse}</p>
+        </div>
+      )}
+
+      <h2 className="text-2xl font-bold mb-4 text-gray-800 uppercase">Day {day.day}: {day.title}</h2>
       <p className="mb-6 text-gray-600">{day.content}</p>
       {day.questions && (
         <ul className="space-y-6">
@@ -92,12 +101,31 @@ const DayContent = () => {
                   ))}
                 </div>
               )}
+              {/* Main Question Textbox */}
               <Question
                 question={question.question}
                 dayId={dayId}
                 weekId={weekId}
-                questionId={index}
+                questionId={`main-${index}`}
               />
+              {/* Sub-Questions */}
+              {question.subQuestions && (
+                <div className="mt-4">
+                  {question.subQuestions.map((subQuestion, subIndex) => (
+                    <div key={subIndex} className="mt-4">
+                      <p className="text-gray-700 font-medium">
+                        {String.fromCharCode(97 + subIndex)}. {subQuestion.question}
+                      </p>
+                      <Question
+                        question={subQuestion.question}
+                        dayId={dayId}
+                        weekId={weekId}
+                        questionId={`sub-${index}-${subIndex}`}
+                      />
+                    </div>
+                  ))}
+                </div>
+              )}
             </li>
           ))}
         </ul>
